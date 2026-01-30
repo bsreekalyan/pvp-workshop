@@ -39,3 +39,11 @@ Instead of a start-to-finish line, DevOps is a loop that never ends:
     
 4. **Monitor & Learn:** You watch how users use it, find bugs, and go back to step 1.
 
+### 5. Why do companies care?
+
+- **Old Way:** Release software once every 6 months. (High risk, very stressful).
+    
+- **DevOps Way:** Release software 10 times a day. (Low risk, "boring" and easy).
+    
+
+> **Pro-Tip for the Class:** "In the industry, a Senior DevOps Engineer’s job is to make themselves 'useless' by automating everything so they can sleep peacefully at night while the code deploys itself."
