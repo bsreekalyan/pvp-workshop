@@ -1,23 +1,42 @@
-🔄 Software Development Life Cycle & DevOps
-1. The Core Phases
-Phase	Description	DevOps Objective
-Requirement	Defining "What" and "Why"	Aligning business goals with feasibility.
-Design	Architecture & Logic	Designing for scalability and deployability.
-Development	Actual coding	Small, frequent commits to shared repos.
-Testing	QA & Integration	Shift Left: Automate as early as possible.
-Deployment	Release to Production	Making releases boring and repeatable.
-2. The Evolution of Methodology
+# Software Development Life Cycle (SDLC)
 
-    Waterfall (Legacy): Linear and sequential. High risk because you only see the product at the very end.
+The SDLC is the cost-effective and time-efficient process used by development teams to design and build high-quality software. In modern DevOps environments, this cycle is **continuous**, not linear.
 
-    Agile (Modern): Iterative 2-week "Sprints." Fast, but often creates a bottleneck at the release stage.
+---
 
-    DevOps (Standard): Removes the "Wall of Confusion" between Developers (who want change) and Operations (who want stability).
+## 1. The Core Phases
 
-3. The Three Pillars
+| Phase           | Industry Reality                               | DevOps Objective                                       |
+| --------------- | ---------------------------------------------- | ------------------------------------------------------ |
+| **Requirement** | Defining the "What" and "Why."                 | Aligning business goals with technical feasibility.    |
+| **Design**      | High-level (Architecture) & Low-level (Logic). | Designing for scalability and "deployability."         |
+| **Development** | The actual coding and unit testing.            | Small, frequent commits to a shared repository.        |
+| **Testing**     | QA, Integration, and UAT.                      | **Shift Left**: Automating tests as early as possible. |
+| **Deployment**  | Releasing code to Production.                  | **CI/CD**: Making releases boring and repeatable.      |
+| **Maintenance** | Monitoring, patching, and scaling.             | Feedback loops to inform the next Requirement phase.   |
 
-    Automation: Let machines do the boring, error-prone stuff.
+### Waterfall (Legacy)
 
-    Small Steps: Release 1 change daily instead of 1,000 once a year.
+- **Structure:** Linear and sequential.
+    
+- **The Flaw:** You don't see the "working product" until the very end.
+    
+- **The Result:** High risk of project failure if requirements change mid-way.
+    
 
-    Feedback: Know if the app is slow in minutes, not weeks.
+### Agile (Modern)
+
+- **Structure:** Iterative "Sprints" (usually 2 weeks).
+    
+- **The Flaw:** Can create a **Deployment Bottleneck** if the Operations team isn't as fast as the Development team.
+    
+- **The Result:** Rapid feature creation, but often high friction during release.
+    
+
+### DevOps (Industry Standard)
+
+- **Structure:** A culture of shared responsibility.
+    
+- **The Fix:** Removes the "Wall of Confusion" between Dev and Ops through automation and communication.
+    
+- **The Result:** High velocity, high stability, and fast "Mean Time To Recovery" (MTTR).
